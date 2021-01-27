@@ -1,0 +1,28 @@
+html, * {
+    margin: 0;
+    padding: 0;
+	box-sizing:border-box;
+}
+*{
+	margin:20px;
+}
+
+body {
+	padding:10px;
+	height:100vh;
+	text-align: center;
+	font-family: sans-serif;
+	background:linear-gradient(to bottom,rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('https://i2.wp.com/asiatimes.com/wp-content/uploads/2017/11/iStock-610771930-e1511951512286.jpg?fit=1200%2C800&ssl=1');
+	background-size: cover;
+	background-repeat: repeat;
+	color:#fff;
+    font-size:30px;
+    font-weight: bold;
+	overflow-x:hidden;
+}
+
+input {
+    font-size:30px;
+    font-family: sans-serif;
+    width: 200px;
+}
