@@ -1,0 +1,50 @@
+html, * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	padding: 10px;
+	text-align: center;
+	font-family: sans-serif;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://i2.wp.com/asiatimes.com/wp-content/uploads/2017/11/iStock-610771930-e1511951512286.jpg?fit=1200%2C800&ssl=1');
+	background-size: cover;
+	background-repeat: repeat;
+	color: rgb(255, 255, 255);
+	font-size: 3vw;
+	font-weight: bold;
+	overflow-x: scroll;
+}
+
+input {
+	font-size: 3vw;
+	font-family: sans-serif;
+	width: 20vw;
+	opacity: 60%;
+	font-weight: 700;
+}
+
+table {
+	margin: 0 auto;
+	width: 60%;
+}
+
+th {
+	color: bisque;
+}
+
+::placeholder {
+	/* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: rgb(224, 0, 0);
+	/*opacity: 1; /* Firefox */
+}
+
+@media only screen and (max-width: 1000px) {
+	body {
+		width: 100%;
+	}
+	table {
+		width: 99%;
+	}
+}
