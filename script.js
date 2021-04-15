@@ -34,7 +34,7 @@ function rCalc() {
 
 
 function rClear() {
-    for (i = 1; i < document.getElementById("dataTable").rows.length; i++) {
+    for (let i = 1; i < document.getElementById("dataTable").rows.length; i++) {
         document.getElementById(`rw${i}`).value = "";
         document.getElementById(`rw${i}`).placeholder = "";
     }
