@@ -1,8 +1,11 @@
+import {API} from "./api.js";
+
 let rList = {};
 
 const getRates = async () => {
     const url =
-        `https://api.exchangeratesapi.io/latest?base=USD`;
+        'http://api.exchangeratesapi.io/v1/latest?access_key='+API;
+
     try {
         const response = await fetch(url);
         const data = await response.json();
