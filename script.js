@@ -1,5 +1,6 @@
 import {API} from "./api.js";
-
+import {currencyCodes} from "./currency_codes.js";
+//console.log(currencyCodes);
 let rList = {};
 
 const getRates = async () => {
@@ -51,6 +52,9 @@ function addRow(tableID, currencyCode) {
     cell3.innerHTML = currencyCode;
     let cell4 = row.insertCell(2);
     let element4 = document.createElement("input");
+    let cell5 = row.insertCell(3);
+    try {cell5.innerHTML = currencyCodes[cell3.innerHTML].name;}
+    catch {}
     cell4.appendChild(element4);
     element4.type = "number";
     element4.min = 0;

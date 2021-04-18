@@ -29,7 +29,9 @@ table {
 	margin: 0 auto;
 	width: 60%;
 }
-
+tr td:nth-child(4) {
+	font-size: medium;
+}
 th {
 	color: bisque;
 }
